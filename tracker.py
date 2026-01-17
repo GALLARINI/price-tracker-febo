@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 URL = "https://www.zapateriafebo.com/products/zapato-feliz-1?variant=47301152866535"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-PRICE_LIMIT = 150000  # Precio objetivo
+PRICE_LIMIT = 180000  # Precio objetivo
 
 EMAIL = os.getenv("EMAIL")
 PASSWORD = os.getenv("EMAIL_PASSWORD")
